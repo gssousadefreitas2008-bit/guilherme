@@ -1,4 +1,3 @@
-
 class Automovel:
     def __init__(self, nome=None, marca=None, modelo=None):
         self.nome = nome
@@ -53,11 +52,5 @@ moto1.frear()
 carro2 = Carro()
 carro2.acelerar()
 carro2.frear()
-
-
-
-   
-
-
 
 
