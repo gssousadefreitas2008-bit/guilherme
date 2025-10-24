@@ -11,10 +11,10 @@ class aluno(pessoa):
     def _init_(self, nome: str, cpf: str, matricula: int) -> None:
         if nome is None:
             nome=input("digite o nome do aluno: ")
-        if nome ir None:
+        if matricula is None:
              matricula=input("digite a matricula do aluno: ")
      super().__init__(nome)
-    self.matricula=matricula
+     self.matricula=matricula
     def apresentar(self) -> str:
         base = super().apresentar()
         return f"{base} e sou aluno, matricula {self.matricula}"
