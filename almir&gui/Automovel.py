@@ -18,7 +18,7 @@ class Automovel:
             self.velocidade = 0
         if self.nome is None:
             print(f"Automóvel freou para {self.velocidade} km/h.")
-        else:
+        else: 
             print(f"{self.nome} freou para {self.velocidade} km/h.")
 
 class Carro(Automovel):
