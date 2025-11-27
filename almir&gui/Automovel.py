@@ -52,5 +52,3 @@ moto1.frear()
 carro2 = Carro()
 carro2.acelerar()
 carro2.frear()
-
-

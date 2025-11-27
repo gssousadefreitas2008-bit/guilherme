@@ -53,7 +53,7 @@ def iniciar_viagem(transporte):
 
 
 carro = Carro("Fiat Uno", 5, 80, "etanol")
-onibus = Onibus("Mercedes 5000", 50, 60, "Centro → Bairro")
+onibus = Onibus("Mercedes 5000", 50, 60, "Centro  Bairro")
 bike = Bicicleta("Caloi Elite", 1, 20)
 bike_usada = Bicicleta("Monark", 1, 15, "João")
 
